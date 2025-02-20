@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container_1 {
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(212, 163, 163, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    overflow-wrap: break-word; 
+}
+
+.container_2 {
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    overflow-wrap: break-word; 
+    
+}
+
+.bio-title {
+    font-size: 25px; 
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: left; 
+    margin-left: 20px; 
+}
+
+
+.title {
+    color: #333;
+    font-size: 28px;
+}
+
+.list {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+.list-item {
+    margin-bottom: 10px; 
+    font-size: 18px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    line-height: 1.4; 
+}
+
+.subtitle {
+    color: #333;
+    font-size: 24px; 
+    font-weight: 600; 
+    text-transform: uppercase;
+    margin-bottom: 12px; 
+}
+
+
+
+.text {
+    width: 100%; 
+    max-width: 100%; 
+    text-align: justify; 
+    line-height: 1.8; 
+    overflow-wrap: break-word; 
+    hyphens: auto; 
+    padding: 0 15px; 
+}
+
+
+
+.bio-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid #333;
+}
+
+.photo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.photo-container::after {
+    content: '👨‍💻';
+    font-size: 30px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.student-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+}
+
+
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-header, .table-cell {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    overflow-wrap: break-word; 
+} 
+ 
+
+.fun-section {
+    background: linear-gradient(to right, #ffffff, #f4a450);
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    position: relative; 
+}
+
+
+.fun-section::after {
+    content: "";
+    position: absolute;
+    top: -25px; 
+    left: 50%; 
+    transform: translateX(50%); 
+    width: 100px; 
+    height: 100px; 
+    background-image: url('images/TONI.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
