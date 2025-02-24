@@ -31,14 +31,14 @@ body {
 .bio-title {
     font-size: 25px; 
     font-weight: bold;
-    color: #2c3e50;
+    color: #e6861f;
     text-align: left; 
     margin-left: 20px; 
 }
 
 
 .title {
-    color: #333;
+    color: #e6861f;
     font-size: 28px;
 }
 
@@ -69,7 +69,7 @@ body {
 
 
 .subtitle {
-    color: #333;
+    color: #e6861f;
     font-size: 24px; 
     font-weight: 600; 
     text-transform: uppercase;
