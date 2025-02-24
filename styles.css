@@ -57,6 +57,17 @@ body {
     line-height: 1.4; 
 }
 
+.link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.link:hover {
+    text-decoration: underline; 
+    color: #007bff; 
+}
+
+
 .subtitle {
     color: #333;
     font-size: 24px; 
